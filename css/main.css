@@ -1,0 +1,27 @@
+html {
+    background-color: cadetblue;
+}
+
+body {
+    max-width: 60em;
+    margin: 0 auto;
+    padding: 0.5em 1em;
+    background-color: white;
+    box-shadow: 3px 5px;
+}
+
+nav ul {
+    padding-left: 0;
+    display: flex;
+}
+nav li {
+    display: inline-block;
+    padding: 0 1em;
+}
+nav li:not(:last-child) {
+    border-right: 1px solid black;
+}
+
+address {
+    border-top: 1px solid black;
+}
