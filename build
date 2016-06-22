@@ -1,0 +1,29 @@
+#!/usr/bin/python
+
+import os
+
+template = "template.html"
+embed_mark = "<!--markdown-->"
+article_dir = "article"
+
+# get template
+tfile = open(template)
+temp_str = tfile.read()
+tfile.close()
+begin = temp_str.find(embed_mark)
+end = begin + len(embed_mark)
+temp_head = temp_str[:begin]
+temp_tail = temp_str[end:]
+
+for dpath, dname, fnames in os.walk(article_dir):
+    for fn in fnames:
+        if fn.endswith(".md"):
+            ifn = dpath + "/" + fn
+            ofn = ifn[:-3] + ".html"
+            f = open(ofn, "w")
+            f.write(temp_head)
+            f.close()
+            os.system("md2html '{}' >> '{}'".format(ifn, ofn))
+            f = open(ofn, "a")
+            f.write(temp_tail)
+            f.close()
