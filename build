@@ -15,9 +15,12 @@ end = begin + len(embed_mark)
 temp_head = temp_str[:begin]
 temp_tail = temp_str[end:]
 
+articles = []
+
 for dpath, dname, fnames in os.walk(article_dir):
     for fn in fnames:
         if fn.endswith(".md"):
+            articles.append(fn[:-3])
             ifn = dpath + "/" + fn
             ofn = ifn[:-3] + ".html"
             f = open(ofn, "w")
@@ -27,3 +30,9 @@ for dpath, dname, fnames in os.walk(article_dir):
             f = open(ofn, "a")
             f.write(temp_tail)
             f.close()
+
+import json
+lfile = open("list.json", "w")
+lfile.write(json.dumps(articles))
+lfile.write("\n")
+lfile.close()
