@@ -1,5 +1,12 @@
-## welcome to my blog
-This blog is under constructing...
+## Welcome to my homepage
 
-## to contact me
-send email to the address at the bottom
+Favourite programming languages:
+
+* Scheme
+* JavaScript
+* Python
+* Java
+
+Suggested sites:
+
+* <a href="http://www.yinwang.org/">Yin Wang's Blog</a>

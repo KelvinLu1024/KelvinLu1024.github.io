@@ -1,0 +1,1 @@
+var listLoc = "../list.json";

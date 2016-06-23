@@ -4,7 +4,6 @@ import os
 
 template = "template.html"
 embed_mark = "<!--markdown-->"
-article_dir = "article"
 
 # get template
 tfile = open(template)
@@ -17,20 +16,29 @@ temp_tail = temp_str[end:]
 
 articles = []
 
-for dpath, dname, fnames in os.walk(article_dir):
-    for fn in fnames:
-        if fn.endswith(".md"):
-            articles.append(fn[:-3])
-            ifn = dpath + "/" + fn
-            ofn = ifn[:-3] + ".html"
-            f = open(ofn, "w")
-            f.write(temp_head)
-            f.close()
-            os.system("md2html '{}' >> '{}'".format(ifn, ofn))
-            f = open(ofn, "a")
-            f.write(temp_tail)
-            f.close()
+def process_file(path, fname):
+    input_name = "{}/{}".format(path, fname);
+    output_name = input_name[:-3] + ".html" # remove .md ending
+    articles.append(output_name) # record processed files
+    f = open(output_name, "w")
+    f.write(temp_head)
+    f.close()
+    os.system("md2html '{}' >> '{}'".format(input_name, output_name))
+    f = open(output_name, "a")
+    f.write(temp_tail)
+    f.close()
 
+def walk(path):
+    for dpath, dnames, fnames in os.walk(path):
+        for fn in fnames:
+            if fn.endswith(".md"):
+                process_file(dpath, fn)
+        for dir in dnames:
+            walk("{}/{}".format(dpath, dir))
+
+walk(os.curdir)
+
+# dump articles
 import json
 lfile = open("list.json", "w")
 lfile.write(json.dumps(articles))
