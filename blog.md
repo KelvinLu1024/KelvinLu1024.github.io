@@ -1,6 +1,5 @@
-<script src="js/blog.js" />
+## Articles
 
-## Blogs
+<script src="js/blog.js"></script>
 
-<ul id="blog-list" />
-
+<div id="blog-list"></div>

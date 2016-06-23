@@ -1,46 +1,49 @@
 #!/usr/bin/python
 
-import os
+import os, json
 
-template = "template.html"
+tfname = "template.html"
 embed_mark = "<!--markdown-->"
 
 # get template
-tfile = open(template)
-temp_str = tfile.read()
-tfile.close()
-begin = temp_str.find(embed_mark)
-end = begin + len(embed_mark)
-temp_head = temp_str[:begin]
-temp_tail = temp_str[end:]
+def extract_template(path):
+    f = open(path)
+    s = f.read()
+    f.close()
+    a = s.find(embed_mark)
+    b = a + len(embed_mark)
+    return s[:a], s[b:]
 
-articles = []
-
-def process_file(path, fname):
+def process_file(path, fname, head, tail):
     input_name = "{}/{}".format(path, fname);
     output_name = input_name[:-3] + ".html" # remove .md ending
-    articles.append(output_name) # record processed files
     f = open(output_name, "w")
-    f.write(temp_head)
+    f.write(head)
     f.close()
     os.system("md2html '{}' >> '{}'".format(input_name, output_name))
     f = open(output_name, "a")
-    f.write(temp_tail)
+    f.write(tail)
     f.close()
 
 def walk(path):
     for dpath, dnames, fnames in os.walk(path):
-        for fn in fnames:
-            if fn.endswith(".md"):
-                process_file(dpath, fn)
-        for dir in dnames:
-            walk("{}/{}".format(dpath, dir))
+        if tfname in fnames:
+            ls = []
+            head, tail = extract_template(dpath + "/" + tfname)
+            for fn in fnames:
+                if fn.endswith(".md"):
+                    process_file(dpath, fn, head, tail)
+                    ls.append(fn[:-3] + ".html")
+            if len(ls) > 0:
+                dump_list(dpath, ls)
+            for dir in dnames:
+                walk("{}/{}".format(dpath, dir))
+
+def dump_list(path, ls):
+    # dump articles
+    lfile = open("{}/.list.json".format(path), "w")
+    lfile.write(json.dumps(ls))
+    lfile.write("\n")
+    lfile.close()
 
 walk(os.curdir)
-
-# dump articles
-import json
-lfile = open("list.json", "w")
-lfile.write(json.dumps(articles))
-lfile.write("\n")
-lfile.close()

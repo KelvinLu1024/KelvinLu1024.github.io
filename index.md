@@ -1,6 +1,14 @@
-## Welcome to my homepage
+# Lu Kuang-chen's Homepage
 
-Favourite programming languages:
+Welcome to my homepage! I am interested in web technologies, graphics and biology.  
+
+Here are some of my projects which I am proud of:
+
+* <a href="https://github.com/KelvinLu1024/WebTree">WebTree</a>  
+  A JavaScript library generating SVG for tree visualization.  
+  Supported layouts: rectangular, circular and unrooted.
+
+And my favourite programming languages:
 
 * Scheme
 * JavaScript
