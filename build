@@ -41,7 +41,7 @@ def walk(path):
 
 def dump_list(path, ls):
     # dump articles
-    lfile = open("{}/.list.json".format(path), "w")
+    lfile = open("{}/list.json".format(path), "w")
     lfile.write(json.dumps(ls))
     lfile.write("\n")
     lfile.close()

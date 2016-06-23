@@ -3,7 +3,7 @@
 $(document).ready(loadBlogList);
 
 function loadBlogList() {
-  var listLoc = "./article/.list.json";
+  var listLoc = "./article/list.json";
   var contElem = document.getElementById("blog-list");
   $.ajax({
     "url": listLoc,
