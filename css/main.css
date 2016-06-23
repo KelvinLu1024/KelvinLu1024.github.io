@@ -28,5 +28,9 @@ address {
 }
 
 pre, code {
-  background-color: lightgoldenrodyellow;
+    background-color: lightgoldenrodyellow;
+}
+
+p {
+    line-height: 1.5em;
 }

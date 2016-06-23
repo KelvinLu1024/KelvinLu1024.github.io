@@ -1,6 +1,6 @@
 # Lu Kuang-chen's Homepage
 
-Welcome to my homepage! I am interested in web technologies, graphics and biology.  
+Welcome to my homepage! I am interested in programming and biology.
 
 Here are some of my projects which I am proud of:
 
