@@ -18,6 +18,7 @@ The software told me that
     IMachine {f30138d4-e5ea-4b3a-8858-a059de4c93fd}
 
 and that
+
     Kernel driver not installed (rc=-1908)
 
     The VirtualBox Linux kernel driver (vboxdrv) is either not

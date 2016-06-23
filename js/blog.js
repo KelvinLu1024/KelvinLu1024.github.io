@@ -4,32 +4,29 @@ $(document).ready(loadBlogList);
 
 function loadBlogList() {
   var listLoc = "./article/list.json";
-  var contElem = document.getElementById("blog-list");
+  var lsele = document.getElementById("blog-list");
   $.ajax({
     "url": listLoc,
     "dataType": "json",
     "success": function (ls) {
       for (var fname of ls) {
         (function () {
-          var artElem = document.createElement("article");
-          var linkElem = document.createElement("a");
-          var h1Elem = document.createElement("h1");
-          var sumElem = document.createElement("p");
-          contElem.appendChild(artElem);
-          artElem.appendChild(linkElem);
-          artElem.appendChild(sumElem)
-          linkElem.appendChild(h1Elem);
-          console.log(h1Elem, sumElem);
           var floc = "./article/" + fname;
           queryArticle(floc, function (title, sum) {
-            linkElem.setAttribute("href", floc);
-            h1Elem.appendChild(title);
-            sumElem.appendChild(sum);
+            var arele = document.createElement("article");
+            lsele.appendChild(arele);
+            // insert <a>title</a>
+            var aele = document.createElement("a");
+            arele.appendChild(aele);
+            aele.setAttribute("href", floc);
+            aele.appendChild(title);
+            // insert summary
+            arele.appendChild(sum);
           });
-        })()
+        })();
       }
     }
-  })
+  });
 }
 
 var xml;
@@ -38,10 +35,10 @@ function queryArticle(floc, callback) {
     "url": floc,
     "dataType": "xml",
     "success": function (doc) {
-      console.log(doc, doc.querySelector);
       xml = doc;
-      var title = doc.querySelector("h1:first-of-type").firstChild;
+      var title = doc.querySelector("h1:first-of-type");
       var summ = doc.querySelector("h1:first-of-type + *");
+      console.log(doc, title, summ, title.namespaceURI)
       callback(title, summ);
     }
   })
