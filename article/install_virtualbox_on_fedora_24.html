@@ -1,0 +1,61 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+  <head>
+    <title>Lu, Kuang-chen's Blog</title>
+    <link href="../css/main.css" rel="stylesheet" type="text/css" />
+    <!-- <script src="../js/library/zepto.js"></script> -->
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../blog.html">Blog</a></li>
+        <!-- <li><a href="./cv.html">CV</a></li> -->
+      </ul>
+    </nav>
+    <h1>Install VirtualBox on Fedora 24</h1>
+
+<p><strong>June 23, 2016</strong></p>
+
+<h2>Story</h2>
+
+<p>I download the rpm package from the website of VirtualBox and install it with</p>
+
+<pre><code>sudo dnf install ...
+</code></pre>
+
+<p>Everything goes well until I try to boot an installed virtual machine.</p>
+
+<p>The software told me that</p>
+
+<pre><code>Result Code:
+NS_ERROR_FAILURE (0x80004005)
+Component:
+MachineWrap
+Interface:
+IMachine {f30138d4-e5ea-4b3a-8858-a059de4c93fd}
+</code></pre>
+
+<p>and that
+    Kernel driver not installed (rc=-1908)</p>
+
+<pre><code>The VirtualBox Linux kernel driver (vboxdrv) is either not
+loaded or there is a permission problem with /dev/vboxdrv.
+Please reinstall the kernel module by executing
+
+'/sbin/rcvboxdrv setup'
+</code></pre>
+
+<h2>Solution</h2>
+
+<pre><code>sudo dnf install kernel-devel
+sudo dnf install gcc
+sudo /sbin/rcvboxdrv setup
+</code></pre>
+
+    <address>
+      E-mail: <a href="mailto:lkc1024@openmailbox.org">lkc1024@openmailbox.org</a>
+    </address>
+  </body>
+</html>

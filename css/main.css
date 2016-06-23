@@ -26,3 +26,7 @@ nav li:not(:last-child) {
 address {
     border-top: 1px solid black;
 }
+
+pre, code {
+  background-color: lightgoldenrodyellow;
+}
