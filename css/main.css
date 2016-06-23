@@ -4,8 +4,9 @@ html {
 
 body {
     max-width: 60em;
-    margin: 0 auto;
-    padding: 0.5em 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 2em;
     background-color: white;
     box-shadow: 3px 5px;
 }
