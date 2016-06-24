@@ -11,17 +11,17 @@ body {
   box-shadow: 3px 5px;
 }
 
-nav ul {
+#nav ul {
   padding-left: 0;
 }
-nav li {
+#nav li {
   display: inline-block;
   padding: 0 1em;
 }
-nav li:not(:last-child) {
+#nav li:not(:last-child) {
   border-right: 1px solid black;
 }
-nav a {
+#nav a {
   font-size: 1.5em;
 }
 
