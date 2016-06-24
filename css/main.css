@@ -25,14 +25,17 @@ body {
   font-size: 1.5em;
 }
 
-address {
-  border-top: 1px solid black;
-}
-
 pre, code {
   background-color: lightgoldenrodyellow;
 }
 
 p {
   line-height: 1.5em;
+}
+
+footer > a {
+  float: right;
+}
+footer address {
+  border-top: 1px solid black;
 }
