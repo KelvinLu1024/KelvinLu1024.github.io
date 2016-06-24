@@ -1,35 +1,38 @@
 html {
-    background-color: cadetblue;
+  background-color: cadetblue;
 }
 
 body {
-    max-width: 60em;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1em 2em;
-    background-color: white;
-    box-shadow: 3px 5px;
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em 2em;
+  background-color: white;
+  box-shadow: 3px 5px;
 }
 
 nav ul {
-    padding-left: 0;
+  padding-left: 0;
 }
 nav li {
-    display: inline-block;
-    padding: 0 1em;
+  display: inline-block;
+  padding: 0 1em;
 }
 nav li:not(:last-child) {
-    border-right: 1px solid black;
+  border-right: 1px solid black;
+}
+nav a {
+  font-size: 1.5em;
 }
 
 address {
-    border-top: 1px solid black;
+  border-top: 1px solid black;
 }
 
 pre, code {
-    background-color: lightgoldenrodyellow;
+  background-color: lightgoldenrodyellow;
 }
 
 p {
-    line-height: 1.5em;
+  line-height: 1.5em;
 }
