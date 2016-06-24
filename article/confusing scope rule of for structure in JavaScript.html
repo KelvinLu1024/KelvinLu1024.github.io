@@ -37,7 +37,7 @@ console.log(f1(), f2());
 
 <h2>A Bad Design</h2>
 
-<p>I think that's the reason why ES6 introduces <code>let</code> statement. However, changing the scope rules of <code>for</code>, <code>while</code> and <code>do ... while</code> is a better solution, from the prespective of design. </p>
+<p>The key point is that JavaScript only has function scope (Thanks Yin Wang for pointing out). I think that's the reason why ES6 introduces <code>let</code> statement. However, changing the scope rules of <code>for</code>, <code>while</code> and <code>do ... while</code> is a better solution, from the prespective of design.</p>
 
 <p>If we treat <code>var</code>s in blocks as <code>let</code>s. We lose nothing but the complexity increace of JavaScript. To simulate 'traditional' behaviour, we can declare the variables before the <code>for</code> statement. For example,</p>
 
@@ -55,8 +55,6 @@ console.log(f1(), f2());
 <p>It's even more clear than previous program, as we know what new variables will be introduced to outer scope before reading the block of <code>for</code>. This becomes more beneficial when you are using an editor/IDE with 'code folding' feature.</p>
 
 <h2>If You Don't Want To Use <code>let</code></h2>
-
-<p>If you are not sure whether <code>let</code> works on target browsers. Here is a solution.</p>
 
 <pre><code>var ls = [];
 for (var i = 0; i &lt; 2; i++) {
