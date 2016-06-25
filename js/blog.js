@@ -38,7 +38,6 @@ function queryArticle(floc, callback) {
       xml = doc;
       var title = doc.querySelector("h1:first-of-type");
       var summ = doc.querySelector("h1:first-of-type + *");
-      console.log(doc, title, summ, title.namespaceURI)
       callback(title, summ);
     }
   })
