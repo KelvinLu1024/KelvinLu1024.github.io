@@ -20,7 +20,7 @@ And my favourite programming languages:
 Suggested sites:
 
 * <a href="http://www.yinwang.org/">Yin Wang's Blog</a>
-* <a href="http://cgm.sjtu.edu.cn/index/index.php>Dr. Chaochun Wei, Department of Bioinformatics and Biostatistics, SJTU</a>
+* <a href="http://cgm.sjtu.edu.cn/index/index.php">Dr. Chaochun Wei, Department of Bioinformatics and Biostatistics, SJTU</a>
 
 Friends:
 
