@@ -1,5 +1,5 @@
 # Install VirtualBox on Fedora 24
-**June 23, 2016**
+**June 23, 2016** In a nut shell, `gcc` and `kernel-devel` are required.
 
 ## Story
 I download the rpm package from the website of VirtualBox and install it with
