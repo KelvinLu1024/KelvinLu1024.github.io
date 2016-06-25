@@ -2,7 +2,7 @@
 *June 23, 2016* JavaScript has no **block scope**.
 
 ## Story
-A reason why I prefer JavaScript than Python is the intuitive scope rules. In JavaScript, it seems that every code block comes with a sub-scope, but I realize that it's not always true. For example, in `for` statement.
+A reason why I prefer JavaScript than Python is the intuitive scope rules. In JavaScript, it seems that every code block (function, for, while, etc.) comes with a sub-scope, but I realize that it's not always true. For example, in `for` statement.
 
     var ls = [];
     for (var i = 0; i < 2; i++) {
