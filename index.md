@@ -8,7 +8,7 @@ Here are some of my projects which I am proud of:
   A JavaScript library generating SVG for tree visualization.  
   Supported layouts: rectangular, circular and unrooted.
 * <a href="https://github.com/KelvinLu1024/whiteout.js"> whiteout.js</a>  
-  A JavaScript library remove useless whitespaces in (X)HTML. Simple yet help full.
+  A JavaScript library remove useless whitespaces in (X)HTML. Simple yet helpful.
 
 And my favourite programming languages:
 
