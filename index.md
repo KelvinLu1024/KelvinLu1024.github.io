@@ -20,4 +20,7 @@ And my favourite programming languages:
 Suggested sites:
 
 * <a href="http://www.yinwang.org/">Yin Wang's Blog</a>
+
+Friends:
+
 * <a href="http://qinacme.com/">qinacme's Blog</a>
