@@ -1,4 +1,4 @@
-## Replace `bash` with `fish shell`
+# Replace `bash` with `fish shell`
 *June 25, 2016* It's awesome!
 
 website: <a href="http://fishshell.com/">fish shell</a>

@@ -17,59 +17,7 @@
         <!-- <li><a href="./cv.html">CV</a></li> -->
       </ul>
     </div>
-    <h1>Confusing Scope Rule of <code>for</code> statement in JavaScript</h1>
-
-<p><em>June 23, 2016</em> JavaScript has no <strong>block scope</strong>.</p>
-
-<h2>Story</h2>
-
-<p>A reason why I prefer JavaScript than Python is the intuitive scope rules. In JavaScript, it seems that every code block (function, for, while, etc.) comes with a sub-scope, but I realize that it's not always true. For example, in <code>for</code> statement.</p>
-
-<pre><code>var ls = [];
-for (var i = 0; i &lt; 2; i++) {
-  var n = i;
-  ls.push(function(){ return n; });
-}
-var f1 = ls[0];
-var f2 = ls[1];
-console.log(f1(), f2());
-</code></pre>
-
-<p>What will you see in the console? It's not <code>0 1</code>, but <code>1 1</code>. Why? If you try to log the value of <code>n</code> with <code>f1()</code> and <code>f2()</code>, you will find that the value of <code>n</code> is not <code>undefined</code>, but <code>1</code>, implying that <code>n</code> was bound in the same scope as <code>ls</code>, <code>f1</code> and <code>f2</code>. This explains why <code>f1</code> returns <code>1</code>, as there are only one <code>n</code>, whose value is set to <code>2</code> during the second iteration.</p>
-
-<h2>A Bad Design</h2>
-
-<p>The key point is that JavaScript only has function scope (Thanks Yin Wang for pointing out). I think that's the reason why ES6 introduces <code>let</code> statement. However, changing the scope rules of <code>for</code>, <code>while</code> and <code>do ... while</code> is a better solution, from the prespective of design.</p>
-
-<p>If we treat <code>var</code>s in blocks as <code>let</code>s. We lose nothing but the complexity increace of JavaScript. To simulate 'traditional' behaviour, we can declare the variables before the <code>for</code> statement. For example,</p>
-
-<pre><code>var ls = [];
-var n;
-for (var i = 0; i &lt; 2; i++) {
-  n = i;
-  ls.push(function(){ return n; });
-}
-var f1 = ls[0];
-var f2 = ls[1];
-console.log(f1(), f2());
-</code></pre>
-
-<p>It's even more clear than previous program, as we know what new variables will be introduced to outer scope before reading the block of <code>for</code>. This becomes more beneficial when you are using an editor/IDE with 'code folding' feature.</p>
-
-<h2>If You Don't Want To Use <code>let</code></h2>
-
-<pre><code>var ls = [];
-for (var i = 0; i &lt; 2; i++) {
-  (function(){
-    var n = i;
-    ls.push(function(){ return n; });
-  })();
-}
-var f1 = ls[0];
-var f2 = ls[1];
-console.log(f1(), f2());
-</code></pre>
-
+    
     <div id="footer">
       <a href="http://validator.w3.org/check?uri=referer">
         <img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" />
