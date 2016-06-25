@@ -25,4 +25,5 @@ Suggested sites:
 
 Friends:
 
+* <a href="http://dcclogin.github.io/">Rumia's Blog</a>
 * <a href="http://qinacme.com/">qinacme's Blog</a>
