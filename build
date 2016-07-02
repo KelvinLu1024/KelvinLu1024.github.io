@@ -42,10 +42,10 @@ def walk(path):
                 def ncmp(n1, n2):
                     f1 = "{}/{}.md".format(dpath, n1)
                     f2 = "{}/{}.md".format(dpath, n2)
-                    t1 = os.path.getctime(f1)
-                    t2 = os.path.getctime(f2)
+                    t1 = os.path.getmtime(f1)
+                    t2 = os.path.getmtime(f2)
                     return cmp(t1, t2)
-                ls.sort(ncmp)
+                ls.sort(ncmp, reverse=True)
                 # name ls ==> html path ls
                 ls = map(lambda name: "{}/{}.html".format(dpath, name),
                          ls)
