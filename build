@@ -14,8 +14,8 @@ def extract_template(path):
     b = a + len(embed_mark)
     return s[:a], s[b:]
 
-def process_file(path, fname, head, tail):
-    input_name = "{}/{}".format(path, fname);
+def process_file(fpath, head, tail):
+    input_name = fpath
     output_name = input_name[:-3] + ".html" # remove .md ending
     f = open(output_name, "w")
     f.write(head)
@@ -32,8 +32,10 @@ def walk(path):
             head, tail = extract_template(dpath + "/" + tfname)
             for fn in fnames:
                 if fn.endswith(".md"):
-                    process_file(dpath, fn, head, tail)
-                    ls.append(fn[:-3] + ".html")
+                    fpath = "{}/{}".format(dpath, fn)
+                    opath = 
+                    process_file(fpath, head, tail)
+                    ls.append(os.path.getmtime(html")
             if len(ls) > 0:
                 dump_list(dpath, ls)
             for dir in dnames:
