@@ -11,7 +11,7 @@ function loadBlogList() {
     "success": function (ls) {
       for (var fname of ls) {
         (function () {
-          var floc = "./article/" + fname;
+          var floc = fname;
           queryArticle(floc, function (title, sum) {
             var arele = document.createElement("article");
             lsele.appendChild(arele);
