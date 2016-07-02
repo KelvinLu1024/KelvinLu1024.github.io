@@ -31,14 +31,24 @@ def walk(path):
             (head, tail) = extract_template(tfpath)
             for fn in fnames:
                 if fn.endswith(".md"):
-                    ifpath = "{}/{}".format(dpath, fn)
-                    ofpath = ifpath[:-3] + ".html"
-                    process_file(ifpath, ofpath, head, tail)
-                    ls.append(ofpath)
+                    name = fn[:-3]
+                    process_file(
+                        "{}/{}.md".format(dpath, name),
+                        "{}/{}.html".format(dpath, name),
+                        head, tail)
+                    ls.append(name)
             if len(ls) > 0:
-                def fcmp(fp1, fp2):
-                    return
-                ls.sort(lambda fp1, fp2: cmp(os.path.getctime(fp1), os.path.getctime(fp2)))
+                # sort ls by ctime of md files
+                def ncmp(n1, n2):
+                    f1 = "{}/{}.md".format(dpath, n1)
+                    f2 = "{}/{}.md".format(dpath, n2)
+                    t1 = os.path.getctime(f1)
+                    t2 = os.path.getctime(f2)
+                    return cmp(t1, t2)
+                ls.sort(ncmp)
+                # name ls ==> html path ls
+                ls = map(lambda name: "{}/{}.html".format(dpath, name),
+                         ls)
                 dump_list(dpath, ls)
             for dir in dnames:
                 walk("{}/{}".format(dpath, dir))
