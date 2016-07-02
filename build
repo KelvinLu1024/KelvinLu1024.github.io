@@ -38,7 +38,7 @@ def walk(path):
             if len(ls) > 0:
                 def fcmp(fp1, fp2):
                     return
-                ls.sort(lambda fp1, fp2: cmp(os.path.getmtime(fp1), os.path.getmtime(fp2)))
+                ls.sort(lambda fp1, fp2: cmp(os.path.getctime(fp1), os.path.getctime(fp2)))
                 dump_list(dpath, ls)
             for dir in dnames:
                 walk("{}/{}".format(dpath, dir))
