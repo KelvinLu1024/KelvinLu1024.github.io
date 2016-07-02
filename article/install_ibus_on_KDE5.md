@@ -7,9 +7,8 @@ _2016, July 2_ ibus-pinyin有bug，用ibus-libpinyin
     sudo dnf install ibus-libpinyin
     
 ## ibus-pinyin的bug
-选择的文字会被删除（比如，在浏览器中按Ctrl-l选择地址栏， 网址会全部被删除，用光标双击选中也会，Ctrl-a全选也会）。
-
-输入法切换需要按两次。我把切换输入法的快捷键设定为Super-Space。用ibus-pinyin需要按两次快捷键才能成功切换输入法。
+1. 选择的文字会被删除（比如，在浏览器中按Ctrl-l选择地址栏， 网址会全部被删除，用光标双击选中也会，Ctrl-a全选也会）。
+2. 输入法切换需要按两次。我把切换输入法的快捷键设定为Super-Space。用ibus-pinyin需要按两次快捷键才能成功切换输入法。
 
 以上两个bug，应该是ibus-pinyin引起的，因为用ibus-libpinyin时都不会出现。
 
