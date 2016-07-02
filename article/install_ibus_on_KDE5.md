@@ -1,5 +1,5 @@
 # 在KDE5上安装ibus输入框架
-_2016, July 2_ ibus-pinyin有bug，用ibus-libpinyin
+_July 2, 2016_ ibus-pinyin有bug，用ibus-libpinyin
 
 ## 安装过程（Fedora 24）
 
