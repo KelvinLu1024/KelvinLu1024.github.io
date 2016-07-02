@@ -1,0 +1,6 @@
+#!/usr/bin/fish
+
+./build
+git add article/*
+git commit -am "update"
+git push
