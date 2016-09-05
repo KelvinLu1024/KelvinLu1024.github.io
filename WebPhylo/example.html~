@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <script src="WebTree/webtree.js"></script>
+    <script src="WebTree/appendage.js"></script>
+    <script src="WebTree/extension.js"></script>
+    <script src="phyloxml.js/phyloxml.js"></script>
+    <script src="newick.js/newick.js"></script>   
+    <script src="webphylo.js"></script>
+    <script>
+      var conf = {};
+      var tree;
+      document.addEventListener("DOMContentLoaded", function(event) {
+        var demo1 = document.getElementById("unrooted");
+        var demo2 = document.getElementById("circular");
+        var demo3 = document.getElementById("rectangular");
+        WebPhylo.load(demo1, "unrooted", "phyloxml", "apaf.xml",
+          { "unit": 200, "disable_label": true });
+        WebPhylo.load(demo2, "circular", "phyloxml", "apaf.xml",
+          { "unit": 64 });
+        WebPhylo.load(demo3, "rectangular", "phyloxml", "apaf.xml",
+          { "unit": 100 });      
+      });
+    </script>
+    <style>
+      svg 
+      { 
+        stroke:black;
+        fill:grey; 
+      }
+      
+      svg text 
+      { 
+        stroke: black;
+        fill: black; 
+        font-size: 15px;
+      }
+      
+      path 
+      { 
+        fill: none; 
+      }
+      
+      html, body
+      { 
+        width: 100%;
+        height: 100%; 
+      }
+      
+      div.demo, svg
+      {
+        width: 100%;
+        height: 1000px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="unrooted" class="demo"></div>    
+    <div id="circular" class="demo"></div>    
+    <div id="rectangular" class="demo"></div>    
+  </body>
+</html>
