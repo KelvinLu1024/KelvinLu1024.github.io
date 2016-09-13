@@ -3,6 +3,7 @@
 (import (scheme base)
         (scheme file)
         (scheme read)
+        (scheme write)
         (file util)
 
         (only (gauche base)
@@ -28,6 +29,8 @@
 
 (define process-directory
   (lambda (dir)
+    (display dir)
+    (newline)
     (let ((meta (get-metadata dir)))
       (when meta
         (let-values (((prefix suffix)
@@ -67,10 +70,14 @@
 
 (define get-template
   (lambda (dir)
-    (call-with-input-file (subfile dir "_template.html")
-      (lambda (port)
-        (let ((str (read-all port)))
-          (regexp-split "<!--embed-->" str))))))
+    (let [[tfile (subfile dir "_template.html")]]
+      (if (file-exists? tfile)
+          (call-with-input-file tfile
+            (lambda (port)
+              (let ((str (read-all port)))
+                (regexp-split "<!--embed-->" str))))
+          (error "get-template: cannot find"
+                 tfile)))))
 
 
 (define regexp-split
