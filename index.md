@@ -13,9 +13,9 @@ Here are some of my projects which I am proud of:
 And my favourite programming languages:
 
 * Scheme
-* JavaScript
-* Python
 * Java
+* Python
+* JavaScript
 
 Suggested sites:
 
@@ -27,3 +27,4 @@ Friends:
 
 * <a href="http://dcclogin.github.io/">Rumia's Blog</a>
 * <a href="http://qinacme.com/">qinacme's Blog</a>
+
