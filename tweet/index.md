@@ -2,6 +2,8 @@
 
 I record inspiration here.
 
+记录灵感的地方。
+
 <style>
   body > article {
        border: 1px solid black;
