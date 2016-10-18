@@ -9,4 +9,7 @@ I record inspiration here.
        border: 1px solid black;
        padding: 0 1em;
   }
+  body > article:not(:last-of-type) {
+       margin-top: 1em;
+  }
 </style>
