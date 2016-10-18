@@ -1,5 +1,51 @@
 #!/usr/bin/fish
 
-mayfly build
-cd blog/
-mayfly build
+
+function extract_title -a file
+	head -n 1 $file'.md' | sed -e 's/^# //'
+end
+
+
+function build_blog
+	cd blog
+	cp index.md index.md.backup
+	mayfly list | read --null --array files
+	for file in $files
+		if test $file = 'index'
+			continue
+		end
+		set title (extract_title $file)
+		echo '* <a href="./'$file'.html">'$title'</a>' >> index.md
+	end
+	mayfly build
+	mv index.md.backup index.md
+	cd ..
+end
+
+
+function build_tweet
+	cd tweet
+	cp index.md index.md.backup
+	mayfly list | read --null --array files
+	for file in $files
+		if test $file = 'index'
+			continue
+		end
+		echo '<article>' >> index.md
+		cat $file'.md' | markdown2html >> index.md
+		echo '</article>' >> index.md
+	end
+	mayfly build
+	mv index.md.backup index.md
+	cd ..
+end
+
+
+function build_root
+	mayfly build
+end
+
+
+build_root
+build_blog
+build_tweet
