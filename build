@@ -10,7 +10,7 @@ function build_blog
 	cd blog
 	cp index.md index.md.backup
 	mayfly list | read --null --array files
-	for file in $files
+	for file in $files[-1..1]
 		if test $file = 'index'
 			continue
 		end
@@ -27,7 +27,7 @@ function build_tweet
 	cd tweet
 	cp index.md index.md.backup
 	mayfly list | read --null --array files
-	for file in $files
+	for file in $files[-1..1]
 		if test $file = 'index'
 			continue
 		end

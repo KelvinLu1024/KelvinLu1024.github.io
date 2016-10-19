@@ -1,14 +1,13 @@
 # Lu Kuang-chen's Homepage
 
-Welcome to my homepage! I am interested in programming and biology.
+Welcome to my homepage! I am interested in computer science and biology.
 
-Here are some of my projects which I am proud of:
+Here are some of my projects:
 
 * <a href="https://github.com/KelvinLu1024/WebTree">WebTree</a>  
-  A JavaScript library generating SVG for tree visualization.  
-  Supported layouts: rectangular, circular and unrooted.
+  A JavaScript library generats SVG for tree visualization. It supports three most popular layouts (rectangular, circular and unrooted).
 * <a href="https://github.com/KelvinLu1024/whiteout.js"> whiteout.js</a>  
-  A JavaScript library remove useless whitespaces in (X)HTML. Simple yet helpful.
+  A JavaScript library removes useless whitespaces in (X)HTML. Simple yet helpful!
 
 And my favourite programming languages:
 
