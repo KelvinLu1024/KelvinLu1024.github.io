@@ -1,4 +1,4 @@
-# From Fedora to Debian
+## From Fedora to Debian
 
 I have been using Fedora for two years since the incidental deletion of Windows 8.1 bundled with my laptop. However, I recently switch to Debian, because I have had Fedora enough.
 

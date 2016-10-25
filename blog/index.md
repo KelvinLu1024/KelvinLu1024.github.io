@@ -1,4 +1,4 @@
-# Lu, Kuang-chen's Blog
+## Lu, Kuang-chen's Blog
 
 Welecome!
 
