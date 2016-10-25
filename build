@@ -2,7 +2,7 @@
 
 
 function extract_title -a file
-	head -n 1 $file'.md' | sed -e 's/^# //'
+	head -n 1 $file'.md' | sed -e 's/^## //'
 end
 
 
