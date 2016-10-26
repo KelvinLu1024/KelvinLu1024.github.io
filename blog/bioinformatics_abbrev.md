@@ -1,4 +1,4 @@
-## Bioinformatics File Extensions
+## Bioinformatics Abbrevations
 
 * SRA: Short Reads Archive
 * GO: Gene Ontology
