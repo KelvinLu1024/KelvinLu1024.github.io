@@ -4,6 +4,7 @@ Welcome to my homepage! I am interested in computer science and biology.
 
 Here are some of my projects:
 
+* <a href="https://github.com/KelvinLu1024/pregexp">pregexp for r6rs</a>
 * <a href="https://github.com/KelvinLu1024/WebTree">WebTree</a>  
   A JavaScript library generats SVG for tree visualization. It supports three most popular layouts (rectangular, circular and unrooted).
 * <a href="https://github.com/KelvinLu1024/whiteout.js"> whiteout.js</a>  
