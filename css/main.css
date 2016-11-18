@@ -26,6 +26,8 @@ body {
   margin-left: 0.5em;
   margin-right: 0.5em;
   border-radius: 5px;
+  width: 3em;
+  text-align: center;
 }
 #nav li:hover {
   background-color: lightslategrey;
