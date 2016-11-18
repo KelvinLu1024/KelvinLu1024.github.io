@@ -21,14 +21,14 @@ body {
   display: inline-block;
   padding: 0 1em;
   text-transform: capitalize;
-  background-color: darkslategrey;
+  background-color: slategrey;
   line-height: 2em;
   margin-left: 0.5em;
   margin-right: 0.5em;
   border-radius: 5px;
 }
 #nav li:hover {
-  background-color: slategrey;
+  background-color: lightslategrey;
 }
 #nav li a {
   text-decoration: none;
