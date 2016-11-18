@@ -21,9 +21,20 @@ body {
   display: inline-block;
   padding: 0 1em;
   text-transform: capitalize;
+  background-color: darkslategrey;
+  line-height: 2em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  border-radius: 5px;
 }
-#nav li:not(:last-child) {
-  border-right: 1px solid black;
+#nav li:hover {
+  background-color: slategrey;
+}
+#nav li a {
+  text-decoration: none;
+  color: white;
+  font-family: Mono space;
+  font-weight: bold;
 }
 
 pre, code {
