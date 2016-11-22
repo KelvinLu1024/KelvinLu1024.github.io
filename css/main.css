@@ -1,8 +1,9 @@
 html {
-  background-color: lightsteelblue;
+  background-color: darkslategrey;
 }
 
 body {
+  border-radius: 0.2em;
   box-sizing: border-box;
   margin-top: 0.5em;
   margin-bottom: 1em;
@@ -18,19 +19,20 @@ body {
   padding-left: 0;
 }
 #nav li {
+  font-size: 0.8em;
   display: inline-block;
   padding: 0 1em;
-  text-transform: capitalize;
-  background-color: slategrey;
-  line-height: 2em;
   margin-left: 0.5em;
   margin-right: 0.5em;
-  border-radius: 5px;
+  line-height: 2em;
   width: 3em;
+  border-radius: 5px;
+  text-transform: capitalize;
+  background-color: darkolivegreen;
   text-align: center;
 }
 #nav li:hover {
-  background-color: lightslategrey;
+  background-color: grey;
 }
 #nav li a {
   text-decoration: none;
@@ -47,9 +49,14 @@ p {
   /* line-height: 1.5em; */
 }
 
+#footer address {
+  float: left;
+}
+
 #footer > a {
   float: right;
 }
-#footer address {
+#footer {
   border-top: 1px solid black;
+  overflow: auto;
 }
