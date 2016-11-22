@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/fish
 
 ./build
 git add {blog,tweet}/*.{md,html}
