@@ -12,16 +12,19 @@ Here are some of my projects:
 
 And my favourite programming languages:
 
-* Scheme
+* Scheme (R5RS, R6RS, but not R7RS)
+* Racket
 * Java
 * Python
-* JavaScript
 
 Suggested sites:
 
 * <a href="http://www.yinwang.org/">Yin Wang's Blog</a>
 * <a href="http://cgm.sjtu.edu.cn/index/index.php">Dr. Chaochun Wei, Department of Bioinformatics and Biostatistics, SJTU</a>
 * <a href="https://linuxtoy.org/">LinuxTOY</a>
+* <a href="http://practical-scheme.net/">Practical Scheme</a>
+* <a href="http://synthcode.com/blog/">Alex Shinn's Blog</a>
+
 
 Friends:
 
