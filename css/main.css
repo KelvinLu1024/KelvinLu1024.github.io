@@ -3,22 +3,21 @@ html {
 }
 
 body {
-  border-radius: 0.2em;
   box-sizing: border-box;
-  margin-top: 0.5em;
-  margin-bottom: 1em;
+  margin-top: 0em;
+  margin-bottom: 0em;
   margin-left: auto;
   margin-right: auto;
   padding: 0.5em 2em 2em;
   max-width: 50em;
   background-color: white;
-  box-shadow: 0em 0em 0.4em white;
+  box-shadow: 0em 0em 0.3em white;
 }
 
-#nav ul {
+nav ul {
   padding-left: 0;
 }
-#nav li {
+nav li {
   font-size: 0.8em;
   display: inline-block;
   padding: 0 1em;
@@ -31,10 +30,10 @@ body {
   background-color: darkolivegreen;
   text-align: center;
 }
-#nav li:hover {
+nav li:hover {
   background-color: grey;
 }
-#nav li a {
+nav li a {
   text-decoration: none;
   color: white;
   font-family: Mono space;
@@ -49,14 +48,14 @@ p {
   /* line-height: 1.5em; */
 }
 
-#footer address {
+footer address {
   float: left;
 }
 
-#footer > a {
+footer > a {
   float: right;
 }
-#footer {
+footer {
   border-top: 1px solid black;
   overflow: auto;
 }
