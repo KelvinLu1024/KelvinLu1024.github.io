@@ -1,6 +1,0 @@
-#!/usr/bin/fish
-
-./build
-git add {blog,tweet}/*.{md,html}
-git commit -am "update"
-git push
