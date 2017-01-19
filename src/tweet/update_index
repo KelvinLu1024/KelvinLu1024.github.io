@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cp index.md.backup index.md
+python3 ./.update_index.py ./*.md
