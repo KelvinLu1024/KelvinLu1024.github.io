@@ -4,63 +4,56 @@ I record my inspiration here.
 
 记录灵感的地方。
 
-<style>
-  body > article {
-       border-radius: 1em;
-       border: 1px solid goldenrod;
-       margin: 1em 0;
-       padding: 0 1em;
-       background-color: lightgoldenrodyellow;
-  }
-  body > article:not(:first-of-type) {
-       margin-top: 1em;
-  }
-</style>
+<article>2017-01-30
 
-<article>
-2017-01-11
+最近在讀 論語，發現有些源自論語的俗語是斷章取意，比如：
 
-社会的稳定发展需要合理的交易，也就是价格与成本应当相符。商品的生产成本一般能顺利反映在价格之中，但还有一些看不见的成本，需要由税来控制。比如说，吸烟会让人不健康，增加公民医疗保障的开销。如果没有税，香烟的价格只会反映种植烟草等生产的成本。此时，税应该反映的，就是医疗保障等“看不见的成本”。
-</article>
 
-<article>
-2017-01-09
+__“以德報怨”__
+
+或曰：「以德報怨，何如？」子曰：「何以報德？以直報怨，以徳報德。」
+
+（這一項其實在讀論語之前就知道了）
+
+
+
+__“欲速則不達”__
+
+子夏為莒父宰，問政。子曰：「無欲速，無見小利。欲速，則不達；見小利，則大事不成。」
+
+更重要的後半句被省略了。看來，不貪心比慢下來更難做到。
+
+
+
+__“言必信，行必果”__
+
+子貢問曰：「何如斯可謂之士矣？」子曰：「行己有恥，使於四方，不辱君命，可謂士矣。」曰：「敢問其次。」曰：「宗族稱孝焉，鄉黨稱弟焉。」曰：「敢問其次。」曰：「言必信，行必果，踁踁然小人哉！抑亦可以為次矣。」曰：「今之從政者何如？」子曰：「噫！斗筲之人，何足算也。」
+
+“言必信，行必果”是最次的要求了。
+</article><article>2017-01-30
+
+冉有曰：「既富矣，又何加焉？」子曰：「教之」
+
+在大中華區發展教育產業的時機已經到了嗎？
+</article><article>2017-01-11
+
+社会的稳定发展需要合理的交易，也就是价格与成本应当相符。商品的生产成本一般能顺利反映在价格之中，但还有一些看不见的成本，需要由税来控制。比如说，吸烟会让人不健康，增加公民医疗保障的开销。如果没有税，香烟的价格只会反映种植烟草等生产的成本。此时，税应该反映的，就是医疗保障等“看不见的成本”。</article><article>2017-01-09
 
 文件是编码为比特的数据结构。在处理文件中的信息之前，应该把文件解码为数据结构。换句话说，直接对文件中的字符串进行处理是错误的。
 
-Files are encoded data structures. They should be decoded back to data structure before any other operations. In another words, it is WRONG to operate directly on strings in the files. 
-</article>
-
-<article>
-2016-11-26
+Files are encoded data structures. They should be decoded back to data structure before any other operations. In another words, it is WRONG to operate directly on strings in the files. </article><article>2016-11-26
 
 It seems that gene or gene cluster may `lock' other genes or gene clusters. The locking can be achieved through miRNA silience, DNA heterochromatinization or depressor. Can we find out the locking network?
-
-</article>
-
-<article>
-2016-11-26
+</article><article>2016-11-26
 
 Generally, two types of signaling are required: broadcast and point-to-point communication. For cells of an multicellular animal, hormone acts as broadcast signal while neural impulse as point-to-point one. Point-to-point approach can be simulated by combining broadcasting and filting, however, the former seems more efficient. 
-
-</article>
-
-<article>
-2016-11-22
+</article><article>2016-11-22
 
 `Bioinformatics' is a bullshit. It's a turbid mixture of data science (specializing in biological data), structural biology and systems biology.
-
-</article>
-
-<article>
-2016-11-22
+</article><article>2016-11-22
 
 近年中国越来越流行有机、绿色之类的农产品生产方式。有机食品价格高，性价比低。若不是现在国民经济状况有了大幅提升，也不可能流行。然而人们的物质生活水平的提升，很大程度上是归功于现代化的农业，亦即使用了化肥农药甚至转基因作物的农业。如果已经富裕的人们全面改吃有机食品，生活质量也要下降不少吧。
-
-</article>
-
-<article>
-2016-11-13
+</article><article>2016-11-13
 
 In these two terms, I have learned in different lessons so many programming language: 
 
@@ -74,53 +67,29 @@ In these two terms, I have learned in different lessons so many programming lang
 * MatLab
 
 WTF
-
-</article>
-
-<article>
-2016-11-11
+</article><article>2016-11-11
 
 A bad day with Scheme is much better than a good day with C/C++. And I had a bad day with C++. QAQ
-
-</article>
-
-<article>
-2016-11-10
+</article><article>2016-11-10
 
 Expressiveness of programming language matters. As programmers tend to write shorter code, they prefer paradigms easier to express in the programming language. In other words, a language which has limited expressiveness is likely to prevent its users from paradigms that are easy to think of but hard to express.
 miao~
-
-</article>
-
-<article>
-2016-11-01
+</article><article>2016-11-01
 
 许多latex的布道者认为，这门语言可以让使用者专注于内容而非排版。这是扯淡。不想考虑排版的人应该用(x)html，markdown之类真的跟排版无关的语言。即便latex有把格式抽象出来的能力，这种能力也应该很弱或者很难用。因为我看到的许多tex文件包含了大量控制排版的，这应该叫啥，块（？），而且它们包含的内容大都是文章中确定的一个结构，理应被抽象到排版部分，而非与内容混杂在一起。
 
 我一直想写一个可以结构化编辑xhtml的编辑器。markdown大多时候够用了，但我还想要表格。至于输出pdf，可以利用浏览器的“打印到文件”功能实现，所以无需作为编辑器功能的一部分。
 
-
-</article>
-
-<article>
-2016-11-01
+</article><article>2016-11-01
 
 已经过了12点，本该睡觉，但内心苦闷，觉得不来发泄一下便无法安心入睡。忙了一天作业，我感觉自己好像在燃烧生命以烹饪垃圾。这些作业根本就是浪费我的时间！我学的是生物信息学，不是写脚本，不是编程，也不是latex。工具就是工具，需要的时候再学即可，理论在哪里？探究的思维在哪里？我看不到。
 
 我不愿再花时间整各种花哨的工具，学设计烂得一塌糊涂的语言。再不学点实实在在的东西，我的生命就要枯萎了！
 
-
-</article>
-
-<article>
-2016-10-26
+</article><article>2016-10-26
 
 今天发现了自己的一个缺点：不看清楚问题就下手。定义函数的时候不想清楚输入的结构，写作业的时候不看清题目，诸如此类。
-
-</article>
-
-<article>
-2016-10-25
+</article><article>2016-10-25
 
 今晚写了一点代码，觉得很爽。一小时瞬间就过去，还让原本无精打采的我变得亦可赛艇。因此，我又开始纠结选择生物信息学是否是一个正确的选择。显然，现在的我，比起研究生物数据，更喜欢写代码。
 
@@ -130,31 +99,14 @@ miao~
 
 我越来越坚定地认为，对于一般的学生，年轻时（本科）应该学计算机科学、数学、物理、化学之类有坚实体系而且注重思维和方法训练的学科。要搞生物，以后再搞也不迟，无非就是些死记硬背的东西。我已经上了贼船，只能强行自学数据分析的理论和方法，再强行学习生物知识，同时抽时间学学编程，争取当一个不太糟糕的通才。
 
-
-</article>
-
-<article>
-2016-10-19
+</article><article>2016-10-19
 
 If I can find out the origin of each base in genomes, horizontal transfered sequences will emerge.
-
-</article>
-
-<article>
-2016-10-19
+</article><article>2016-10-19
 
 Love is a Fallacy (written by Max Shulman) is so funny!
+</article><article>2016-10-18
 
-</article>
+Bandwagon is blocked. Fuck the GFW!</article><article>2016-10-18
 
-<article>
-2016-10-18
-
-Bandwagon is blocked. Fuck the GFW!
-</article>
-
-<article>
-2016-10-18
-
-为什么有的进行主动运输的转运蛋白(transporter)不使用ATP作为能量来源，而使用离子梯度呢？离子梯度的维持需要ATP，因此这些转运蛋白算是间接地使用了ATP的能量。能量的每一次传递都会有许多耗散，直接使用ATP难道不会更好吗？
-</article>
+为什么有的进行主动运输的转运蛋白(transporter)不使用ATP作为能量来源，而使用离子梯度呢？离子梯度的维持需要ATP，因此这些转运蛋白算是间接地使用了ATP的能量。能量的每一次传递都会有许多耗散，直接使用ATP难道不会更好吗？</article>
