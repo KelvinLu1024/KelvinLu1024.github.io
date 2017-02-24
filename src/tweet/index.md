@@ -4,7 +4,28 @@ I record my inspiration here.
 
 记录灵感的地方。
 
-<article>2017-01-30
+<article>2017-02-24
+
+EOPL （Essentials of Programming Language) 這本書真是太棒了。簡單易懂，知識點承接連貫。
+
+可是好長，我什麼時候才能讀完啊！
+
+_（相比於其他CS方面的書籍，這本書還算是相當簡明的了。）_
+
+
+我十分同意王垠的这句话（原文地址：<a href="http://www.yinwang.org/blog-cn/2014/08/11/genius">怎样成为一位天才</a>），
+
+> 厚书本来就不应该拿来读，最多可以拿来当字典查。
+
+
+实际上，我从未读完一本厚书，并且曾为“只读半卷书”的自己感到羞愧。看到王垠这句话，我心情舒坦了许多，哈哈哈哈。
+
+
+BTW，再见了，《编译原理》。
+</article><article>2017-02-24
+
+推薦一篇王垠的博文<a href="http://www.yinwang.org/blog-cn/2014/01/04/authority">我和權威的故事</a>
+</article><article>2017-01-30
 
 最近在讀 論語，發現有些源自論語的俗語是斷章取意，比如：
 
