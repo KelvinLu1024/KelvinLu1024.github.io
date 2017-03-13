@@ -1,6 +1,7 @@
 #!/bin/bash
 
 
+
 function build {
 	build_index
 	build_blog
@@ -11,7 +12,7 @@ function build {
 
 
 function markdown_to_html {
-	cat $1 | markdown
+	cat $1 | python3 -c "import sys, markdown; print(markdown.markdown(sys.stdin.read()))"
 }
 
 
