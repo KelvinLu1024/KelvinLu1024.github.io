@@ -4,6 +4,7 @@ Welecome!
 
 欢迎！
 
+* <a href="./UNIX系統的一些問題.html">UNIX系統的一些問題</a>
 * <a href="./嘗試創作編程教程.html">嘗試創作編程教程</a>
 * <a href="./歧视与消灭它们的方法.html">歧视与消灭它们的方法</a>
 * <a href="./bioinformatics_abbrev.html">Bioinformatics Abbrevations</a>

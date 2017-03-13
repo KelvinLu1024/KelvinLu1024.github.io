@@ -1,0 +1,31 @@
+#! /usr/bin/python3
+
+from os import listdir
+from markdown import markdown
+
+
+header = """# Lu, Kuang-chen's Tweet
+
+I record my inspiration here.
+
+记录灵感的地方。
+
+"""
+
+
+index_path = "./index.md"
+
+
+def get_markdown_file_paths():
+    for path in listdir("./"):
+        if path.endswith(".md"):
+            yield path
+
+
+def main():
+    index = open(index_path, 'w')
+    index.write(header)
+    for md_path in get_markdown_file_paths():
+        index.write(markdown(open(md_path, 'r').read()))
+    index.close()
+    return
