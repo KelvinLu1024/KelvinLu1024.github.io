@@ -8,11 +8,12 @@ Welcome to my homepage! I am interested in computer science and biology.
 
 Here are some of my projects:
 
-* <a href="https://github.com/KelvinLu1024/pregexp">pregexp for r6rs</a>
-* <a href="https://github.com/KelvinLu1024/WebTree">WebTree</a>  
+* <a href="https://github.com/KelvinLu1024/WebTree">WebTree</a><br />
   A JavaScript library generats SVG for tree visualization. It supports three most popular layouts (rectangular, circular and unrooted).
-* <a href="https://github.com/KelvinLu1024/whiteout.js"> whiteout.js</a>  
+* <a href="https://github.com/KelvinLu1024/whiteout.js"> whiteout.js</a><br />
   A JavaScript library removes useless whitespaces in (X)HTML. Simple yet helpful!
+* <a href="https://github.com/KelvinLu1024/Form-Inspector">form-inspector.js</a><br />
+  A JavaScript library that helps to extract name-value mapping from <form> elements.
 
 
 
