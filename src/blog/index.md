@@ -4,6 +4,7 @@ Welecome!
 
 欢迎！
 
+* <a href="./Valuable Reading Materials.html">Valuable Reading Materials</a>
 * <a href="./两条路.html">两条路</a>
 * <a href="./严输入严输出.html">严输入严输出</a>
 * <a href="./近期計劃.html">近期計劃</a>
