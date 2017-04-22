@@ -1,0 +1,33 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="UTF-8"/> 
+    <title>Lu, Kuang-chen's Blog</title>
+    <link href="../css/main.css" rel="stylesheet" type="text/css" />
+    <script src="../js/library/whiteout.js" type="application/javascript"></script>
+  </head>
+  
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../blog/index.html">Blog</a></li>
+        <li><a href="../tweet/index.html">tweet</a></li>
+      </ul>
+    </nav>
+    
+<h1>Enhanced Y-Combinator</h1>
+<p>I am working on an implement of a dialect of Scheme, which eliminates variable assignment. While writing macro expander, I found trouble to expand 'letrec' syntax. Traditional implement of letrec is impossible, because of disallowment of variable assignment. So I tried to extend Y combinator, which is known to help implement self-recursive procedures, to support mutual recursive procedures. I succeeded! <a href="https://github.com/KelvinLu1024/Enhanced-Y-combinator/blob/master/main.rkt">Here</a> is the code.</p>
+<h2>Known Issues</h2>
+<p>The bound values must be procedure.</p>
+<footer>
+  <address>
+    E-mail: <a href="mailto:lkc1024@openmailbox.org">lkc1024@openmailbox.org</a>
+  </address>
+</footer>
+</body>
+</html>
