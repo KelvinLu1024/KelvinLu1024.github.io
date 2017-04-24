@@ -1,4 +1,4 @@
-# Lu Kuang-chen's Homepage
+# Lu, Kuang-chen's Homepage
 # 呂廣振的個人主頁
 
 Welcome to my homepage! I am a newbie bioinformatician. I love both computer science and biology. If you are interested in my works, please don't hesitate to contact me.
