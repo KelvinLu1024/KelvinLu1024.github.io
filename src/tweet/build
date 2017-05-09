@@ -6,7 +6,7 @@ from markdown import markdown
 
 header = """# Lu, Kuang-chen's Tweet
 
-I record my inspiration here.
+Here is the log of afflatus.
 
 记录灵感的地方。
 
@@ -18,14 +18,25 @@ index_path = "./index.md"
 
 def get_markdown_file_paths():
     for path in listdir("./"):
-        if path.endswith(".md"):
+        if path != "index.md" and path.endswith(".md"):
             yield path
 
 
 def main():
     index = open(index_path, 'w')
     index.write(header)
-    for md_path in get_markdown_file_paths():
-        index.write(markdown(open(md_path, 'r').read()))
+    ls = []
+    for p in get_markdown_file_paths():
+        f = open(p)
+        date = f.readline()
+        content = f.read()
+        ls.append((date, markdown(date + content)))
+    ls.sort(reverse=True)
+    for _, md in ls:
+        index.write("<article>")
+        index.write(md)
+        index.write("</article>")
     index.close()
     return
+
+main()

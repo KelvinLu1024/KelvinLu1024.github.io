@@ -3,9 +3,9 @@
 
 Welcome to my homepage! I am a newbie bioinformatician. I love both computer science and biology. If you are interested in my works, please don't hesitate to contact me.
 
-歡迎光臨！我是新手生物信息学家，喜歡計算機科學、生物學和統計學。如果你對我的工作感興趣，可以與我<a href="mailto:lkc1024@openmailbox.org">郵件</a>交流。
+歡迎光臨！我是新手生物信息学家，喜歡計算機科學、生物學和統計學。如果你對我的工作感興趣，可以與我郵件交流。
 
-
+<strong>E-mail: </strong><a href="mailto:lkc1024@openmailbox.org">lkc1024@openmailbox.org</a>
 
 Here are some of my projects:
 
