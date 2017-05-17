@@ -37,10 +37,12 @@ nav a {
   font-weight: bold;
   
   text-decoration: none;
+  
+  color: lightgoldenrodyellow;
 }
 
 nav a:hover {
-  background-color: grey;
+  color: gold;
 }
 
 footer {
