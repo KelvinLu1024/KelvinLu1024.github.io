@@ -1,0 +1,76 @@
+#!/bin/bash
+
+
+
+function build {
+	build_index
+	build_blog
+	build_tweet
+}
+
+
+
+
+function markdown_to_html {
+	cat "$1" | python3 -c "import sys, markdown; print(markdown.markdown(sys.stdin.read()))"
+}
+
+
+
+
+function make_html {
+	header=$1
+	source=$2
+	footer=$3
+	output=$4
+
+	echo > "$output"
+	cat "$header" >> "$output"
+	markdown_to_html "$source" >> "$output"
+	cat "$footer" >> "$output"
+}
+
+
+
+
+function build_index {
+	header=./src/__header__.html
+	source=./src/index.md
+	footer=./src/__footer__.html
+	output=./index.html
+
+	make_html "$header" "$source" "$footer" "$output"
+}
+
+
+
+
+function build_blog {
+	src=./src/blog
+	page=./blog
+
+	header=${src}/__header__.html
+	footer=${src}/__footer__.html
+
+	for source in ${src}/*.md; do
+		md_fname=$(echo "${source}" | sed -E 's/.*\/(.*)$/\1/')
+		html_fname=$(echo "${md_fname}" | sed -E 's/\.md/\.html/')
+		output=${page}/${html_fname}
+		make_html "$header" "$source" "$footer" "$output"
+	done
+}
+
+
+
+
+function build_tweet {
+	header=./src/tweet/__header__.html
+	source=./src/tweet/index.md
+	footer=./src/tweet/__footer__.html
+	output=./tweet/index.html
+
+	make_html "$header" "$source" "$footer" "$output"
+}
+
+
+build

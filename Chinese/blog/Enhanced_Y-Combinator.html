@@ -1,0 +1,32 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="UTF-8"/> 
+    <title>Lu, Kuang-chen's Blog</title>
+    <link type="text/css" rel="stylesheet" href="../css/main.css" />
+    <link type="image/x-icon" rel="shortcut icon" href="../media/favicon.ico" />
+    <script type="application/javascript" src="../js/library/whiteout.js"></script>
+  </head>
+  
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../blog/index.html">Blog</a></li>
+        <li><a href="../tweet/index.html">Tweet</a></li>
+      </ul>
+    </nav>
+    
+<h1>Enhanced Y-Combinator</h1>
+<p>I am working on an implement of a dialect of Scheme, which eliminates variable assignment. While writing macro expander, I found trouble to expand 'letrec' syntax. Traditional implement of letrec is impossible, because of disallowment of variable assignment. So I tried to extend Y combinator, which is known to help implement self-recursive procedures, to support mutual recursive procedures. I succeeded! <a href="https://github.com/KelvinLu1024/Enhanced-Y-combinator/blob/master/main.rkt">Here</a> is the code.</p>
+<h2>Known Issues</h2>
+<p>The bound values must be procedure.</p>
+<footer>
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This website by Lu, Kuang-chen is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+</footer>
+</body>
+</html>
