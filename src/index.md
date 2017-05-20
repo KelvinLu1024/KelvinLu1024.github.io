@@ -1,5 +1,4 @@
 # Lu, Kuang-chen's Homepage
-# 呂廣振的個人主頁
 
 
 Welcome to my homepage! I am a newbie bioinformatician. I love both computer science and biology. If you are interested in my works, feel free to <a href="mailto:lkc1024@openmailbox.org">contact</a> me.
@@ -19,6 +18,7 @@ I know the following programming languages.
 * Java
 * MatLab
 * C
+* C++
 * JavaScript
 
 
