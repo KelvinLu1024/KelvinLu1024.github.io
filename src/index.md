@@ -24,7 +24,7 @@ I know the following programming languages.
 
 ## Projects
 
-### <a href="https://github.com/KelvinLu1024/WebTree">WebTree</a>
+### <a href="https://kelvinlu1024.github.io/WebTree">WebTree</a>
 
 A JavaScript library generats SVG for tree visualization. It supports three most popular layouts (rectangular, circular and unrooted).
 
