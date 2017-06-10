@@ -14,7 +14,7 @@ nav {
   top: 0;
   left: 0;
   
-  background-color: black;
+  background-color: darkcyan;
 } 
 
 nav ul {
@@ -39,7 +39,6 @@ nav a {
 }
 
 nav a:hover {
-  color: gold;
   text-decoration: underline;
 }
 
