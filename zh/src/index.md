@@ -35,4 +35,4 @@ A JavaScript library that helps to extract name-value mapping from `<form>` elem
 ## 推薦的網站
 
 * <a href="http://www.yinwang.org/">王垠的博客</a>
-* <a href="http://ctext.org/zh"/>中國哲學書電子化計劃</a>
+* <a href="http://ctext.org/zh">中國哲學書電子化計劃</a>
