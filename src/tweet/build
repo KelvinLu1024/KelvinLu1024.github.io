@@ -4,7 +4,7 @@ from os import listdir
 from markdown import markdown
 
 
-header = """# Lu, Kuang-chen's Tweet
+header = """# Kuang-chen's Tweet
 
 Here is the log of afflatus.
 
