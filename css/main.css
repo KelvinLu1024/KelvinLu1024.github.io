@@ -95,4 +95,5 @@ body > footer {
   box-sizing: border-box;
   background-color: lightgrey;
   font-size: 0.8em;
+  border: 1px solid black;
 }
