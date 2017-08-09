@@ -1,4 +1,4 @@
-# 呂廣振的主頁（<a href="https://kelvinlu1024.github.io/index.html">English Version</a>）
+# 呂廣振的主頁（<a href="https://kelvinlu1024.github.io">English Version</a>）
 
 歡迎光臨！我是新手生物信息学家，喜歡計算機科學、生物學和統計學。如果你對我的工作感興趣，可以與我郵件交流。
 
