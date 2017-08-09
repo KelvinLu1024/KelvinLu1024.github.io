@@ -1,4 +1,4 @@
-# Lu, Kuang-chen's Homepage (前往<a href="https://kelvinlu1024.github.io/zh_cn/index.html">汉语版</a>)
+# Lu, Kuang-chen's Homepage (前往<a href="https://kelvinlu1024.github.io/zh/index.html">汉语版</a>)
 
 Welcome to my homepage! I am a newbie bioinformatician. I love both computer science and biology. If you are interested in my works, feel free to contact me.
 
