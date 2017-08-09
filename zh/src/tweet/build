@@ -4,11 +4,9 @@ from os import listdir
 from markdown import markdown
 
 
-header = """# Lu, Kuang-chen's Tweet
+header = """# 呂廣振的推特
 
-Here is the log of afflatus.
-
-记录灵感的地方。
+我把靈感記錄在這裡。
 
 """
 
