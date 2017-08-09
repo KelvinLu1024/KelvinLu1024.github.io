@@ -1,7 +1,8 @@
 # Lu, Kuang-chen's Homepage
 
+(<a href="https://kelvinlu1024.github.io/zh_cn/index.html" style="float: right;">汉语</a>)
 
-Welcome to my homepage! I am a newbie bioinformatician. I love both computer science and biology. If you are interested in my works, feel free to <a href="mailto:lkc1024@openmailbox.org">contact</a> me.
+Welcome to my homepage! I am a newbie bioinformatician. I love both computer science and biology. If you are interested in my works, feel free to contact me.
 
 
 <strong>E-mail: </strong><a href="mailto:lkc1024@openmailbox.org">lkc1024@openmailbox.org</a>
@@ -24,10 +25,9 @@ I know the following programming languages.
 
 ## Projects
 
-### <a href="https://kelvinlu1024.github.io/WebTree">WebTree</a>
+### <a href="https://kelvinlu1024.github.io/WebPhyloTree">WebPhyloTree</a>
 
 A JavaScript library generats SVG for tree visualization. It supports three most popular layouts (rectangular, circular and unrooted).
-
 
 
 
