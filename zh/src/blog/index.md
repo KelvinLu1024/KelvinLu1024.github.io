@@ -3,11 +3,11 @@
 歡迎！
 
 
-* <a href="./两条路.html">两条路</a>
-* <a href="./严输入严输出.html">严输入严输出</a>
-* <a href="./近期計劃.html">近期計劃</a>
-* <a href="./UNIX系統的一些問題.html">UNIX系統的一些問題</a>
-* <a href="./嘗試創作編程教程.html">嘗試創作編程教程</a>
-* <a href="./歧视与消灭它们的方法.html">歧视与消灭它们的方法</a>
-* <a href="./生信还是CS.html">再次思考学科的抉择：生物信息学vs计算机科学</a>
-* <a href="./重建博客.html">重建博客</a>
+* <a href="./两条路.xhtml">两条路</a>
+* <a href="./严输入严输出.xhtml">严输入严输出</a>
+* <a href="./近期計劃.xhtml">近期計劃</a>
+* <a href="./UNIX系統的一些問題.xhtml">UNIX系統的一些問題</a>
+* <a href="./嘗試創作編程教程.xhtml">嘗試創作編程教程</a>
+* <a href="./歧视与消灭它们的方法.xhtml">歧视与消灭它们的方法</a>
+* <a href="./生信还是CS.xhtml">再次思考学科的抉择：生物信息学vs计算机科学</a>
+* <a href="./重建博客.xhtml">重建博客</a>
