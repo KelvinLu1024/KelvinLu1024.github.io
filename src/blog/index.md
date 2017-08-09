@@ -1,6 +1,6 @@
 # Lu, Kuang-chen's Blog
 
-Welecome!
+Welcome!
 
 * <a href="./File_System.html">Thinking of File System</a>
 * <a href="./Enhanced_Y-Combinator.html">Enhanced Y-Combinator</a>
