@@ -37,7 +37,7 @@ body {
 
 
 body > article {
-  flex: 1; 
+  flex: auto; 
   
   margin-top: 2.4em;
   margin-left: auto;
@@ -51,7 +51,7 @@ body > article {
 
 
 body > header {
-  flex: 0;
+  flex: none;
   
   width: 100%;
   position: fixed;
@@ -87,9 +87,7 @@ nav a:hover {
 }
 
 body > footer {
-  flex 0;
-  
-  width: 100%;
+  flex: auto;
   
   padding: 1em;
   
