@@ -1,13 +1,10 @@
-# Lu, Kuang-chen's Homepage
-# 呂廣振的個人主頁
-
-Welcome to my homepage! I am a newbie bioinformatician. I love both computer science and biology. If you are interested in my works, please don't hesitate to contact me.
+# 呂廣振的主頁（<a href="https://kelvinlu1024.github.io/index.html">English Version</a>）
 
 歡迎光臨！我是新手生物信息学家，喜歡計算機科學、生物學和統計學。如果你對我的工作感興趣，可以與我郵件交流。
 
-<strong>E-mail: </strong><a href="mailto:lkc1024@openmailbox.org">lkc1024@openmailbox.org</a>
+<strong>電子郵箱：</strong><a href="mailto:lkc1024@openmailbox.org">lkc1024@openmailbox.org</a>
 
-Here are some of my projects:
+以下是我參與過的項目:
 
 * <a href="https://github.com/KelvinLu1024/WebTree">WebTree</a><br />
   A JavaScript library generats SVG for tree visualization. It supports three most popular layouts (rectangular, circular and unrooted).
@@ -18,7 +15,7 @@ Here are some of my projects:
 
 
 
-And my favourite programming languages:
+我喜歡（而且擅長）的編程語言:
 
 * Scheme
 * Racket
@@ -26,9 +23,7 @@ And my favourite programming languages:
 * Python
 
 
+推薦的網站:
 
-Recommend:
-
-* <a href="http://www.yinwang.org/">Yin Wang's Blog</a>
+* <a href="http://www.yinwang.org/">王垠的博客</a>
 * <a href="http://ctext.org/zh"/>中國哲學書電子化計劃</a>
-* <a href="http://cgm.sjtu.edu.cn/index/index.php">Dr. Chaochun Wei, Department of Bioinformatics and Biostatistics, SJTU</a>
