@@ -35,3 +35,8 @@ A JavaScript library generats SVG for tree visualization. It supports three most
 * <a href="http://www.yinwang.org/">Yin Wang's Blog</a>
 * <a href="http://ctext.org/">Chinese Text Project</a>
 * <a href="http://cgm.sjtu.edu.cn/index/index.php">Dr. Chaochun Wei, Department of Bioinformatics and Biostatistics, SJTU</a>
+
+
+## Friends
+
+* <a href="http://jxlei.weebly.com">Jingxin Lei</a>
