@@ -2,7 +2,8 @@
 
 我把靈感記錄在這裡。
 
-<article><p>2017-04-30</p>
+<article><p>2017-08-30</p>
+<p>“Overengineering”的中文翻译居然是“过度设计”而非“过度工程”。这真是太奇怪了！</p></article><article><p>2017-04-30</p>
 <p>現在缺一個跨平臺的自由的拼音輸入法。</p></article><article><p>2017-03-05</p>
 <p>最近突然又有興緻學習匯編語言。因為偏愛簡介的設計，就選擇了RISC。我在SPARC、RISC-V和MIPS中選擇了MIPS。因為它的教程與工具都更容易取得。這裡我想推薦一個講MIPS的網站：</p>
 <p><a href="http://chortle.ccsu.edu/AssemblyTutorial/index.html">Programmed Introduction to MIPS Assembly Language</a></p></article><article><p>2017-02-24</p>
