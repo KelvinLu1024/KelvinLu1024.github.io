@@ -2,7 +2,8 @@
 
 Here is the log of afflatus.
 
-<article><p>2017-04-30</p>
+<article><p>2017-08-30</p>
+<p>I am considering a new programming language, called HTPL (HyperText Programming Language). The key idea is simple. Just like HTML is more expressive than plain text, I believe that a programming language which has table, image, video and so on can be more expressive. </p></article><article><p>2017-04-30</p>
 <p>I need a structual S-expression editor to write scheme program!</p></article><article><p>2017-03-05</p>
 <p>I am recently studying assembly. I prefer RISC over CISC because of love of simplicity. And I prefer MIPS over other RISC assemblies (SPARC, RISC-V), because I found a wonderful learning resouce on it. Here is the resource.</p>
 <p><a href="http://chortle.ccsu.edu/AssemblyTutorial/index.html">Programmed Introduction to MIPS Assembly Language</a></p></article><article><p>2017-01-09</p>
