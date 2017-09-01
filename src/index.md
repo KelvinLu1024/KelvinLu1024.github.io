@@ -1,4 +1,4 @@
-# Kuangchen's Homepage (前往<a href="https://kelvinlu1024.github.io/zh">漢語版</a>)
+# Kuangchen Lu's Homepage (前往<a href="https://kelvinlu1024.github.io/zh">漢語版</a>)
 
 Welcome to my homepage! I am a newbie bioinformatician. I love both computer science and biology. If you are interested in my works, feel free to contact me.
 
@@ -6,19 +6,35 @@ Welcome to my homepage! I am a newbie bioinformatician. I love both computer sci
 <strong>E-mail: </strong><a href="mailto:lkc1024@openmailbox.org">lkc1024@openmailbox.org</a>
 
 
-## Skills
+## Tree of Skills
 
-I know the following programming languages.
-
-* Scheme (my favorite)
-* Racket
-* R
-* Python
-* Java
-* MatLab
-* C
-* C++
-* JavaScript
+* Mathematics
+    * Calculus
+    * Statistics
+    * Probability Theory
+* Chemistry
+    * Inorganic Chemistry
+    * Organic Chemistry
+        * Biochemistry
+    * Physical chemistry
+* Biology
+    * Microbiology
+    * Genetics
+* Computer Programming
+    * Theory
+        * Lambda Calculus
+    * Realworld
+        * Assembly
+    * Programming Language
+        * Java
+        * Scheme (my favorite)
+        * Racket
+        * Python
+        * R
+        * MatLab
+        * C
+        * C++
+        * JavaScript
 
 
 ## Projects
@@ -32,7 +48,7 @@ A JavaScript library generats SVG for tree visualization. It supports three most
 ## Recommended Websites 
 
 * <a href="https://www.transifex.com/">Transifex</a>
-* <a href="http://www.yinwang.org/">Yin Wang's Blog</a>
+* <a href="https://yinwang0.wordpress.com/">Surely I Am Joking</a>
 * <a href="http://ctext.org/">Chinese Text Project</a>
 
 

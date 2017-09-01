@@ -1,4 +1,4 @@
-# Kuangchen's Tweet
+# Kuangchen Lu's Tweet
 
 Here is the log of afflatus.
 
