@@ -1,0 +1,14 @@
+body > article > ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body > article > ul > li {
+  display: block;
+  border:1px solid lightgrey;
+  padding: 0.5em;
+  margin: 0;
+} 
