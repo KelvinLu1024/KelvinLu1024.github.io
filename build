@@ -10,65 +10,26 @@ function build {
 
 
 
-
-function markdown_to_html {
-	cat "$1" | python3 -c "import sys, markdown; print(markdown.markdown(sys.stdin.read()))"
-}
-
-
-
-
-function make_html {
-	header=$1
-	source=$2
-	footer=$3
-	output=$4
-
-	cat "$header" > "$output"
-	markdown_to_html "$source" >> "$output"
-	cat "$footer" >> "$output"
-}
-
-
-
-
 function build_index {
-	header=./src/__header__.xhtml
-	source=./src/index.md
-	footer=./src/__footer__.xhtml
-	output=./index.xhtml
-
-	make_html "$header" "$source" "$footer" "$output"
+    ./utility/remove-newlines.sh ./index.xhtml
 }
 
 
 
 
 function build_blog {
-	src=./src/blog
-	page=./blog
-
-	header=${src}/__header__.xhtml
-	footer=${src}/__footer__.xhtml
-
-	for source in ${src}/*.md; do
-		md_fname=$(echo "${source}" | sed -E 's/.*\/(.*)$/\1/')
-		html_fname=$(echo "${md_fname}" | sed -E 's/\.md/\.xhtml/')
-		output=${page}/${html_fname}
-		make_html "$header" "$source" "$footer" "$output"
-	done
+    for F in ./blog/*.xhtml
+    do
+        echo "$F";
+        ./utility/remove-newlines.sh "$F"
+    done
 }
 
 
 
 
 function build_tweet {
-	header=./src/tweet/__header__.xhtml
-	source=./src/tweet/index.md
-	footer=./src/tweet/__footer__.xhtml
-	output=./tweet/index.xhtml
-
-	make_html "$header" "$source" "$footer" "$output"
+    ./utility/remove-newlines.sh ./tweet/index.xhtml
 }
 
 
