@@ -1,0 +1,12 @@
+body > article > article { 
+    padding: 1em;
+    margin: 1em;
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+body > article > article time { 
+    font-size: 0.8em;
+    color: darkorange;
+}
+
