@@ -20,7 +20,6 @@ function build_index {
 function build_blog {
     for F in ./blog/*.xhtml
     do
-        echo "$F";
         ./utility/remove-newlines.sh "$F"
     done
 }
