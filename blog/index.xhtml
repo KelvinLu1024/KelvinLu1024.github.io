@@ -6,12 +6,32 @@
 
 
 
+
 <title>Kuangchen Lu - Blog</title>
 <link xmlns="http://www.w3.org/1999/xhtml" type="image/x-icon" rel="shortcut icon" href="https://kelvinlu1024.github.io/media/favicon.ico" />
 
 <meta name="author" content="Kuangchen Lu" />
 <meta name="generator" content="BlueGriffon wysiwyg editor" />
-<style type="text/css" title="Green">/* navigator */
+<style type="text/css" title="Green">/* full-height */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+body &gt; article {
+  width: calc(100% - 2em);
+  max-width: 50em;
+  flex-grow: 1;
+}
+
+
+
+
+/* navigator */
 
 #navigator {
   font-size: 0.8em;
