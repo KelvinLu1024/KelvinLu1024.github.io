@@ -4,11 +4,13 @@ body > article > ul {
   padding: 0;
 }
 
-
-
 body > article > ul > li {
   display: block;
   border:1px solid lightgrey;
   padding: 0.5em;
   margin: 0;
 } 
+
+body > article > ul > li > a {
+    text-decoration: none;
+}
