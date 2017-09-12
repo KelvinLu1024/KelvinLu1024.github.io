@@ -6,11 +6,13 @@ body > article > ul {
 
 body > article > ul > li {
   display: block;
-  border:1px solid lightgrey;
-  padding: 0.5em;
+  padding: 0;
   margin: 0;
 } 
 
 body > article > ul > li > a {
-    text-decoration: none;
+  text-decoration: none;
+  border: 0.1ex solid grey;
+  display: block;
+  padding: 0.5em;
 }
