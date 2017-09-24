@@ -1,6 +1,9 @@
 #!/usr/bin/env sh
 
 ./build
+cd ./zh
+./build
+cd ..
 git commit -am "update";
 git status
 git push
